@@ -5,6 +5,7 @@ from django.contrib import admin
 admin.autodiscover()
 
 import hello.views
+import caixa_racional.views as cr
 
 # To add a new path, first import the app:
 # import blog
@@ -18,4 +19,7 @@ urlpatterns = [
     path("", hello.views.index, name="index"),
     path("db/", hello.views.db, name="db"),
     path("admin/", admin.site.urls),
+    path('api/', cr.ApiRoot.as_view(), name=cr.ApiRoot.name),
+    path('api/temperaturas/', cr.TemperaturaList.as_view(), name=cr.TemperaturaList.name),
+    path('api/temperaturas/<int:pk>', cr.TemperaturaDetail.as_view(), name=cr.TemperaturaDetail.name),
 ]
