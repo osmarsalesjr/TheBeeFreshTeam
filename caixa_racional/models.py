@@ -1,4 +1,5 @@
 from django.db import models
+import jsonfield
 
 
 # Create your models here.
@@ -13,3 +14,8 @@ class Temperatura(models.Model):
 
     def __str__(self):
         return str(self.DESCRICAO + " -- " + self.temperatura)
+
+
+class BaseDeDados(models.Model):
+    base = jsonfield.JSONField()
+    dt_criacao = models.DateTimeField(auto_now_add=True)
