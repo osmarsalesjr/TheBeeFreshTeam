@@ -38,4 +38,5 @@ class ApiRoot(generics.GenericAPIView):
     def get(self, request, *args, **kwargs):
         return Response({
             'temperaturas': reverse(TemperaturaList.name, request=request),
+            'base-de-dados': reverse(BaseDeDadosList.name, request=request),
         })
