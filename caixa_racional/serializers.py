@@ -5,4 +5,4 @@ from caixa_racional.models import Temperatura
 class TemperaturaSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = Temperatura
-        fields = ('temperatura', 'descricao', 'tempo')
+        fields = ('temperatura', 'descricao')
