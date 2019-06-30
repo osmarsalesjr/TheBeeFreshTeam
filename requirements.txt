@@ -5,3 +5,5 @@ requests
 djangorestframework
 jsonfield
 django-jsonfield
+psycopg2-binary
+dj-database-url
