@@ -88,7 +88,7 @@ DATABASES = {
     }
 }
 
-'''DATABASE_URL = os.environ['postgres://iihsfriknzjjdx:4c4e1045733628b2d6d9fa58c8a6b0031489d321d50b37a841df60d1f941c605@ec2-50-19-221-38.compute-1.amazonaws.com:5432/diu5av8ki0v60']
+'''DATABASE_URL = os.environ['heroku config:get postgresql-regular-26660 --app gentle-ridge-14992']
 
 conn = psycopg2.connect(DATABASE_URL, sslmode='require')
 
