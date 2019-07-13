@@ -77,7 +77,6 @@ protobuf-converter==0.2.4
 psycopg2==2.8.3
 psycopg2-binary==2.8.3
 py-make==0.1.1
-pycocotools==2.0
 Pygments==2.3.0
 PyJWT==1.7.1
 pyparsing==2.3.1
@@ -105,8 +104,6 @@ shiboken2==5.12.2
 six==1.11.0
 soupsieve==1.7.2
 tensorboard==1.13.1
-tensorflow==1.13.1
-tensorflow-estimator==1.13.0
 termcolor==1.1.0
 terminado==0.8.1
 testpath==0.4.2
