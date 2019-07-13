@@ -89,8 +89,6 @@ python-dotenv==0.10.3
 python3-openid==3.1.0
 pytz==2018.9
 PyWavelets==1.0.2
-pywin32==224
-pywinpty==0.5.4
 PyYAML==3.13
 pyzmq==17.1.2
 qtconsole==4.4.3
