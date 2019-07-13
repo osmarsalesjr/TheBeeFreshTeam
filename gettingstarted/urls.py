@@ -22,6 +22,6 @@ urlpatterns = [
     path('api/', cr.ApiRoot.as_view(), name=cr.ApiRoot.name),
     path('api/temperaturas/', cr.TemperaturaList.as_view(), name=cr.TemperaturaList.name),
     path('api/temperaturas/<int:pk>', cr.TemperaturaDetail.as_view(), name=cr.TemperaturaDetail.name),
-    path('base-de-dados/', cr.BaseDeDadosList.as_view(), name=cr.BaseDeDadosList.name),
-    path('base-de-dados/<int:pk>', cr.BaseDeDadosDetail.as_view(), name=cr.BaseDeDadosDetail.name),
+    path('api/base-de-dados/', cr.BaseDeDadosList.as_view(), name=cr.BaseDeDadosList.name),
+    path('api/base-de-dados/<int:pk>', cr.BaseDeDadosDetail.as_view(), name=cr.BaseDeDadosDetail.name),
 ]

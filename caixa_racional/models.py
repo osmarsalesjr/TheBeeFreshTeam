@@ -12,9 +12,6 @@ class Temperatura(models.Model):
     descricao = models.CharField(max_length=10, choices=DESCRICAO, default='INTERNA')
     tempo = models.DateTimeField(auto_now_add=True)
 
-    def __str__(self):
-        return str(self.DESCRICAO + " -- " + self.temperatura)
-
 
 class BaseDeDados(models.Model):
     base = jsonfield.JSONField()
