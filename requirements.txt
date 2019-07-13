@@ -80,7 +80,6 @@ py-make==0.1.1
 Pygments==2.3.0
 PyJWT==1.7.1
 pyparsing==2.3.1
-pypiwin32==223
 PyQt5==5.12.1
 PyQt5-sip==4.19.15
 PySide2==5.12.2
