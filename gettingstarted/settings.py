@@ -48,10 +48,7 @@ INSTALLED_APPS = [
     "caixa_racional",
 ]
 
-REST_FRAMEWORK = {
-    'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.LimitOffsetPagination',
-    'PAGE_SIZE': 5,
-}
+REST_FRAMEWORK = {}
 
 MIDDLEWARE = [
     "django.middleware.security.SecurityMiddleware",
