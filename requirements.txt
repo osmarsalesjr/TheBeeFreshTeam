@@ -10,7 +10,7 @@ colorama==0.4.1
 contextlib2==0.5.5
 cycler==0.10.0
 Cython==0.29.7
-dask==1.1.4
+dask==2021.10.0
 decorator==4.3.0
 defusedxml==0.5.0
 dj-database-url==0.5.0
